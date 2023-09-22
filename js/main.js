@@ -1,5 +1,5 @@
 // section comments slider//
-  var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper-container',{
     slidesPerView: 2,
     spaceBetween: 20,
     speed: 800,
