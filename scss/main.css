@@ -873,7 +873,7 @@ button {
   }
   .api-docs,
   .api-docs-bg {
-    height: 160vh;
+    height: 80vh;
   }
   .api-docs-item-small {
     flex-direction: column;
@@ -1007,6 +1007,9 @@ button {
   }
 }
 @media (max-width: 320px) {
+  .swiper-buttons-arrow {
+    display: none;
+  }
   .section-title {
     font-size: 40px;
     line-height: 50px;
